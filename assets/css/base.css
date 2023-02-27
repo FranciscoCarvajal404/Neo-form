@@ -1,0 +1,9 @@
+:root{
+    --bg: #E5E5E5;
+    --btn-color: #EDEEF2;
+}
+
+body{
+    background: var(--bg);
+    font-family: 'Open Sans', sans-serif;
+}

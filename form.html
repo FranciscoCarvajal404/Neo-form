@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/reset.css">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/form.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <main class="main">
+        <div class="logo neo-btn">
+            <img src="/assets/img/monst4.png" alt="logo" class="logo__img">
+        </div>
+
+        <div class="form-div">
+            <form action="">
+                <div class="form">
+                    <h2 class="form__titulo">Información básica</h2>
+                    <div class="form__grupo">
+                        <label class="form__label" for="name">
+                            <input type="text" id="name" name="name" class="form__input" autocomplete="off" required>
+                            <span class="label-span">Nombre</span>
+                        </label>
+                    </div>
+                    <div class="form__grupo">
+                        <label class="form__label" for="email">
+                            <input type="email" id="email" name="email" class="form__input" autocomplete="off" required>
+                            <span class="label-span">Email</span>
+                        </label>
+                    </div>
+                    <div class="form__grupo">
+                        <label class="form__label" for="password">
+                            <input type="password" id="password" name="password" class="form__input" autocomplete="off" required>
+                            <span class="label-span">Contraseña</span>
+                        </label>
+                    </div>
+
+                    <h2 class="form__titulo">Información personal</h2>
+                    <div class="form__grupo">
+                        <label class="form__label" for="birth">
+                            <input type="date" id="birth" name="birth" class="form__input form__input--date" autocomplete="off" required>
+                            <span class="label-span">Fecha de nacimiento</span>
+                        </label>
+                    </div>
+                    <div class="form__grupo">
+                        <label class="form__label" for="tel">
+                            <input type="tel" id="tel" name="tel" class="form__input" autocomplete="off" required>
+                            <span class="label-span">Número telefónico</span>
+                        </label>
+                    </div>
+
+                    <h2 class="form__titulo">Dirección</h2>
+                    <div class="form__grupo">
+                        <label class="form__label" for="adress">
+                            <input type="text" id="adress" name="adress" class="form__input" autocomplete="off" required>
+                            <span class="label-span">Dirección completa</span>
+                        </label>
+                    </div>
+                    <div class="form__grupo">
+                        <label class="form__label" for="city">
+                            <input type="text" id="city" name="city" class="form__input" autocomplete="off" required>
+                            <span class="label-span">Ciudad</span>
+                        </label>
+                    </div>
+                    <div class="form__grupo">
+                        <label class="form__label" for="state">
+                            <input type="text" id="state" name="state" class="form__input" autocomplete="off" required>
+                            <span class="label-span">Estado</span>
+                        </label>
+                    </div>
+
+                    <input type="submit" class="form__btn">
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <h2 class="footer__texto">Desarrollado por Francisco Carvajal Villegas<br>2023</h2>
+    </footer>
+
+    <script src="/assets/js/animaciones.js"></script>
+</body>
+</html>

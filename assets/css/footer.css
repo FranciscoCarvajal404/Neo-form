@@ -1,0 +1,15 @@
+.footer{
+    box-sizing: border-box;
+
+    width: 100%;
+
+    padding: 16px;
+
+    background: linear-gradient(170deg, #FFFFFF,#c4daed4d);
+    box-shadow: inset 8px 8px 20px rgba(138, 155, 189, 0.2) , inset -8px -8px 30px rgba(255, 255, 255, 0.9);
+}
+
+.footer__texto{
+    text-align: center;
+    line-height: 1.5;
+}
