@@ -17,6 +17,8 @@
 
     margin-top: 32px;
     margin-bottom: 22px;
+
+    color: black;
 }
 
 .form__label {
@@ -94,6 +96,7 @@
 
     text-align: center;
     font-size: 1.4rem;
+    color: black;
 
     padding: 16px 32px;
     margin-bottom: 32px;
