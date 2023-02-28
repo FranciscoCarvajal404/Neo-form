@@ -38,15 +38,33 @@
     border-radius: 20px;
 
 
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     padding: 16px;
     padding-bottom: 0;
     color: black;
 }
 
+.form__input--invalid{
+    color: rgb(221, 0, 0);
+}
+
 .form__input--date{
     height: 90px;
     padding-top: 26px;
+}
+
+.form__input-error{
+    color: red;
+
+    font-size: 1rem;
+
+    position: absolute;
+    top: 65px;
+    left: 5px;
+}
+
+.form__input-error--date{
+    top: 95px;
 }
 
 .form__input:focus{
@@ -84,6 +102,12 @@
     font-size: 1.1rem;
 }
 
+.form__input--date.full+.label-span {
+    top: 20px;
+    left: 16px;
+    font-size: 1.1rem;
+}
+
 
 .form__btn{
     background: linear-gradient(145deg, rgba(255, 255, 255, 0.8),#c4daed4d);
@@ -95,7 +119,7 @@
     height: 60px;
 
     text-align: center;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: black;
 
     padding: 16px 32px;
