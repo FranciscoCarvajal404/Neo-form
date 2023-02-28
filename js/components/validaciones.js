@@ -53,12 +53,12 @@ const errorMessage ={
 
     birth:{
         valueMissing: "Por favor, ingresa tu fecha de nacimiento",
-        customError: "Por favor, ingresa una fecha"
+        customError: "Debes de tener al menos 18 años"
     },
 
     tel:{
         valueMissing: "Por favor, ingresa tu número telefónico",
-        customError: "Por favor, ingresa un número válido"
+        patternMismatch: "Por favor, ingresa un número válido de 10 dígitos"
     },
 
     adress:{

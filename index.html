@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
@@ -23,7 +23,7 @@
         </div>
 
         <div class="form-div">
-            <form action="">
+            <form action="enviado.html">
                 <div class="form">
                     <h2 class="form__titulo">Información básica</h2>
                     <div class="form__grupo">
@@ -42,7 +42,7 @@
                     </div>
                     <div class="form__grupo">
                         <label class="form__label" for="password">
-                            <input type="password" id="password" name="password" class="form__input" autocomplete="off"  pattern="([a-zA-Z0-9@*#]{6,15})$" required data-type = "password">
+                            <input type="password" id="password" name="password" class="form__input" autocomplete="off" pattern="([a-zA-Z0-9@*#]{6,15})$" required data-type = "password">
                             <span class="label-span">Contraseña</span>
                             <span class="form__input-error"></span>
                         </label>
@@ -58,7 +58,7 @@
                     </div>
                     <div class="form__grupo">
                         <label class="form__label" for="tel">
-                            <input type="tel" id="tel" name="tel" class="form__input" autocomplete="off" required data-type="tel">
+                            <input type="tel" id="tel" name="tel" class="form__input" autocomplete="off" required pattern="\d{10}" minlength="10" maxlength="10" data-type="tel">
                             <span class="label-span">Número telefónico</span>
                             <span class="form__input-error"></span>
                         </label>
@@ -87,7 +87,7 @@
                         </label>
                     </div>
 
-                    <input type="submit" class="form__btn">
+                    <input type="submit" class="form__btn" formaction="enviado.html">
                 </div>
             </form>
         </div>
